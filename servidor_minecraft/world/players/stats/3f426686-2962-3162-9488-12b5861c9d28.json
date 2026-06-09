@@ -1,0 +1,56 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:red_sand": 1,
+      "minecraft:sand": 2,
+      "minecraft:rail": 2
+    },
+    "minecraft:killed": {
+      "minecraft:player": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1040,
+      "minecraft:walk_one_cm": 24320,
+      "minecraft:leave_game": 2,
+      "minecraft:walk_under_water_one_cm": 4016,
+      "minecraft:damage_taken": 17172,
+      "minecraft:damage_dealt": 284,
+      "minecraft:play_time": 10184,
+      "minecraft:jump": 359,
+      "minecraft:time_since_death": 1010,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 42455,
+      "minecraft:fall_one_cm": 13950,
+      "minecraft:swim_one_cm": 4638,
+      "minecraft:total_world_time": 10184,
+      "minecraft:fly_one_cm": 85322,
+      "minecraft:walk_on_water_one_cm": 1104,
+      "minecraft:crouch_one_cm": 512,
+      "minecraft:sneak_time": 234,
+      "minecraft:deaths": 4,
+      "minecraft:player_kills": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 1,
+      "minecraft:creeper": 1
+    },
+    "minecraft:mined": {
+      "minecraft:cactus_flower": 1,
+      "minecraft:sand": 3,
+      "minecraft:rail": 2,
+      "minecraft:tall_dry_grass": 3,
+      "minecraft:red_sand": 1,
+      "minecraft:dead_bush": 30
+    },
+    "minecraft:dropped": {
+      "minecraft:stick": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:stick": 28,
+      "minecraft:rail": 2,
+      "minecraft:sand": 2,
+      "minecraft:red_sand": 1
+    }
+  },
+  "DataVersion": 4790
+}

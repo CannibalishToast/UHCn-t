@@ -1,0 +1,197 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-06-09 00:02:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:cold_ocean": "2026-06-09 05:38:46 +0000",
+      "minecraft:snowy_slopes": "2026-06-09 00:06:00 +0000",
+      "minecraft:old_growth_pine_taiga": "2026-06-09 05:38:58 +0000",
+      "minecraft:forest": "2026-06-09 00:11:25 +0000",
+      "minecraft:taiga": "2026-06-09 05:38:42 +0000",
+      "minecraft:deep_ocean": "2026-06-09 05:39:20 +0000",
+      "minecraft:lush_caves": "2026-06-09 00:12:49 +0000",
+      "minecraft:deep_cold_ocean": "2026-06-09 05:39:50 +0000",
+      "minecraft:ice_spikes": "2026-06-09 05:40:20 +0000",
+      "minecraft:frozen_ocean": "2026-06-09 05:39:02 +0000",
+      "minecraft:frozen_river": "2026-06-09 05:40:06 +0000",
+      "minecraft:deep_frozen_ocean": "2026-06-09 05:40:13 +0000",
+      "minecraft:ocean": "2026-06-09 05:39:19 +0000",
+      "minecraft:jungle": "2026-06-09 05:52:22 +0000",
+      "minecraft:cherry_grove": "2026-06-09 00:05:57 +0000",
+      "minecraft:sunflower_plains": "2026-06-09 05:43:14 +0000",
+      "minecraft:birch_forest": "2026-06-09 00:11:52 +0000",
+      "minecraft:old_growth_spruce_taiga": "2026-06-09 05:54:05 +0000",
+      "minecraft:snowy_beach": "2026-06-09 05:39:04 +0000",
+      "minecraft:bamboo_jungle": "2026-06-09 05:48:57 +0000",
+      "minecraft:flower_forest": "2026-06-09 05:43:12 +0000",
+      "minecraft:beach": "2026-06-09 05:38:47 +0000",
+      "minecraft:dark_forest": "2026-06-09 00:12:36 +0000",
+      "minecraft:sparse_jungle": "2026-06-09 05:43:56 +0000",
+      "minecraft:river": "2026-06-09 03:51:26 +0000",
+      "minecraft:lukewarm_ocean": "2026-06-09 05:52:15 +0000",
+      "minecraft:stony_shore": "2026-06-09 05:38:44 +0000",
+      "minecraft:snowy_plains": "2026-06-09 05:40:01 +0000",
+      "minecraft:dripstone_caves": "2026-06-09 00:12:12 +0000",
+      "minecraft:snowy_taiga": "2026-06-09 05:39:08 +0000",
+      "minecraft:frozen_peaks": "2026-06-09 03:44:14 +0000",
+      "minecraft:old_growth_birch_forest": "2026-06-09 00:11:49 +0000",
+      "minecraft:deep_dark": "2026-06-09 00:05:13 +0000",
+      "minecraft:grove": "2026-06-09 03:45:05 +0000",
+      "minecraft:meadow": "2026-06-09 00:13:32 +0000",
+      "minecraft:savanna": "2026-06-09 05:43:51 +0000",
+      "minecraft:plains": "2026-06-09 00:02:17 +0000",
+      "minecraft:jagged_peaks": "2026-06-09 03:45:31 +0000",
+      "minecraft:pale_garden": "2026-06-09 00:12:28 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2026-06-09 00:05:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:basalt_deltas": "2026-06-09 00:18:40 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-06-09 00:18:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-06-09 00:18:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-06-09 00:19:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-06-09 00:19:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2026-06-09 00:29:38 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-06-09 00:29:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2026-06-09 00:29:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-06-09 05:38:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-06-09 05:58:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-06-09 05:58:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-06-09 05:58:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-06-09 05:58:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-06-09 05:58:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-06-09 05:58:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-06-09 05:58:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_boat": {
+    "criteria": {
+      "in_water": "2026-06-09 05:58:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-06-09 05:58:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-06-09 05:58:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2026-06-09 21:41:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2026-06-09 22:28:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2026-06-09 22:28:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-06-09 22:28:41 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 4790
+}

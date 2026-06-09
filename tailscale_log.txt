@@ -1,0 +1,455 @@
+2026/06/09 20:32:37 logtail started
+2026/06/09 20:32:37 Program starting: v1.80.2-t62b8bf6a0-g3c35ee987, Go 1.23.5: []string{"./tailscaled"}
+2026/06/09 20:32:37 LogID: b4727f972898ac9d894aed1ecfc3fb9550b56610b06815f211975a06b2c7fe03
+2026/06/09 20:32:37 logpolicy: using system state directory "/var/lib/tailscale"
+2026/06/09 20:32:37 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
+2026/06/09 20:32:37 dns: [rc=resolved resolved=not-in-use ret=direct]
+2026/06/09 20:32:37 dns: using "direct" mode
+2026/06/09 20:32:37 dns: using *dns.directManager
+2026/06/09 20:32:37 dns: inotify addwatch: context canceled
+2026/06/09 20:32:37 wgengine.NewUserspaceEngine(tun "tailscale0") ...
+2026/06/09 20:32:37 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
+2026/06/09 20:32:37 dns: [rc=resolved resolved=not-in-use ret=direct]
+2026/06/09 20:32:37 dns: using "direct" mode
+2026/06/09 20:32:37 dns: using *dns.directManager
+2026/06/09 20:32:37 link state: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.13.153/16 llu6]} v4=true v6=false}
+2026/06/09 20:32:37 onPortUpdate(port=48079, network=udp6)
+2026/06/09 20:32:37 router: using firewall mode pref 
+2026/06/09 20:32:37 router: default choosing iptables
+2026/06/09 20:32:37 router: netfilter running in iptables mode v6 = true, v6filter = true, v6nat = true
+2026/06/09 20:32:37 onPortUpdate(port=51441, network=udp4)
+2026/06/09 20:32:37 magicsock: disco key = d:bd238fddb70153e9
+2026/06/09 20:32:37 Creating WireGuard device...
+2026/06/09 20:32:37 Bringing WireGuard device up...
+2026/06/09 20:32:37 Bringing router up...
+2026/06/09 20:32:37 external route: up
+2026/06/09 20:32:37 Clearing router settings...
+2026/06/09 20:32:37 Starting network monitor...
+2026/06/09 20:32:37 Engine created.
+2026/06/09 20:32:37 monitor: [unexpected] network state changed, but stringification didn't: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.13.153/16 llu6]} v4=true v6=false}
+2026/06/09 20:32:37 monitor: [unexpected] old: {"InterfaceIPs":{"docker0":["172.17.0.1/16"],"eth0":["10.0.13.153/16","fe80::7e1e:52ff:feef:3930/64"],"lo":["127.0.0.1/8","::1/128"]},"Interface":{"docker0":{"Index":3,"MTU":1500,"Name":"docker0","HardwareAddr":"AkKnuNov","Flags":19,"AltAddrs":null,"Desc":""},"eth0":{"Index":2,"MTU":1500,"Name":"eth0","HardwareAddr":"fB5S7zkw","Flags":51,"AltAddrs":null,"Desc":""},"lo":{"Index":1,"MTU":65536,"Name":"lo","HardwareAddr":null,"Flags":37,"AltAddrs":null,"Desc":""}},"HaveV6":false,"HaveV4":true,"IsExpensive":false,"DefaultRouteInterface":"eth0","HTTPProxy":"","PAC":""}
+2026/06/09 20:32:37 monitor: [unexpected] new: {"InterfaceIPs":{"docker0":["172.17.0.1/16"],"eth0":["10.0.13.153/16","fe80::7e1e:52ff:feef:3930/64"],"lo":["127.0.0.1/8","::1/128"],"tailscale0":["fe80::fd6a:3c30:e725:9145/64"]},"Interface":{"docker0":{"Index":3,"MTU":1500,"Name":"docker0","HardwareAddr":"AkKnuNov","Flags":19,"AltAddrs":null,"Desc":""},"eth0":{"Index":2,"MTU":1500,"Name":"eth0","HardwareAddr":"fB5S7zkw","Flags":51,"AltAddrs":null,"Desc":""},"lo":{"Index":1,"MTU":65536,"Name":"lo","HardwareAddr":null,"Flags":37,"AltAddrs":null,"Desc":""},"tailscale0":{"Index":4,"MTU":1280,"Name":"tailscale0","HardwareAddr":null,"Flags":57,"AltAddrs":null,"Desc":""}},"HaveV6":false,"HaveV4":true,"IsExpensive":false,"DefaultRouteInterface":"eth0","HTTPProxy":"","PAC":""}
+2026/06/09 20:32:37 pm: using backend prefs for "profile-8167": Prefs{ra=false dns=true want=true routes=[] statefulFiltering=false nf=on update=check Persist{o=, n=[+4tUo] u="valhallaserver072@gmail.com"}}
+2026/06/09 20:32:37 LinkChange: major, rebinding. New state: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.13.153/16 llu6]} v4=true v6=false}
+2026/06/09 20:32:37 logpolicy: using system state directory "/var/lib/tailscale"
+2026/06/09 20:32:37 onPortUpdate(port=48079, network=udp6)
+2026/06/09 20:32:37 onPortUpdate(port=51441, network=udp4)
+2026/06/09 20:32:37 Rebind; defIf="eth0", ips=[10.0.13.153/16 fe80::7e1e:52ff:feef:3930/64]
+2026/06/09 20:32:37 magicsock: 0 active derp conns
+2026/06/09 20:32:37 monitor: gateway and self IP changed: gw=10.0.0.1 self=10.0.13.153
+2026/06/09 20:32:37 got LocalBackend in 60ms
+2026/06/09 20:32:37 Start
+2026/06/09 20:32:37 Backend: logs: be:b4727f972898ac9d894aed1ecfc3fb9550b56610b06815f211975a06b2c7fe03 fe:
+2026/06/09 20:32:37 control: client.Login(0)
+2026/06/09 20:32:37 control: doLogin(regen=false, hasUrl=false)
+2026/06/09 20:32:37 health(warnable=warming-up): error: Tailscale is starting. Please wait.
+2026/06/09 20:32:38 control: control server key from https://controlplane.tailscale.com: ts2021=[fSeS+], legacy=[nlFWp]
+2026/06/09 20:32:38 control: RegisterReq: onode= node=[+4tUo] fup=false nks=false
+2026/06/09 20:32:38 control: RegisterReq: got response; nodeKeyExpired=false, machineAuthorized=true; authURL=false
+2026/06/09 20:32:38 control: netmap: got new dial plan from control
+2026/06/09 20:32:38 health(warnable=not-in-map-poll): ok
+2026/06/09 20:32:38 active login: valhallaserver072@gmail.com
+2026/06/09 20:32:38 Switching ipn state NoState -> Starting (WantRunning=true, nm=true)
+2026/06/09 20:32:38 magicsock: SetPrivateKey called (init)
+2026/06/09 20:32:38 wgengine: Reconfig: configuring userspace WireGuard config (with 0/10 peers)
+2026/06/09 20:32:38 wgengine: Reconfig: configuring router
+2026/06/09 20:32:38 wgengine: Reconfig: configuring DNS
+2026/06/09 20:32:38 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:11}
+2026/06/09 20:32:38 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:11 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:32:38 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:32:38 rename of "/etc/resolv.conf" to "/etc/resolv.pre-tailscale-backup.conf" failed (rename /etc/resolv.conf /etc/resolv.pre-tailscale-backup.conf: device or resource busy), falling back to copy+delete
+2026/06/09 20:32:38 restarted resolved after 1ms
+2026/06/09 20:32:38 peerapi: serving on http://100.124.231.12:57638
+2026/06/09 20:32:38 peerapi: serving on http://[fd7a:115c:a1e0::8a37:e70d]:45969
+2026/06/09 20:32:38 magicsock: home DERP changing from derp-0 [0ms] to derp-1 [11ms]
+2026/06/09 20:32:38 magicsock: home is now derp-1 (nyc)
+2026/06/09 20:32:38 magicsock: adding connection to derp-1 for home-keep-alive
+2026/06/09 20:32:38 magicsock: 1 active derp conns: derp-1=cr0s,wr0s
+2026/06/09 20:32:38 control: NetInfo: NetInfo{varies=false hairpin= ipv6=false ipv6os=true udp=true icmpv4=false derp=#1 portmap= link="" firewallmode="ipt-default"}
+2026/06/09 20:32:38 derphttp.Client.Connect: connecting to derp-1 (nyc)
+2026/06/09 20:32:38 Switching ipn state Starting -> Running (WantRunning=true, nm=true)
+2026/06/09 20:32:38 magicsock: endpoints changed: 74.249.85.195:58456 (stun), 10.0.13.153:51441 (local), 172.17.0.1:51441 (local)
+2026/06/09 20:32:38 health(warnable=no-derp-connection): ok
+2026/06/09 20:32:38 health(warnable=warming-up): ok
+2026/06/09 20:32:38 health(warnable=no-derp-connection): ok
+2026/06/09 20:32:38 magicsock: derp-1 connected; connGen=1
+2026/06/09 20:32:38 health(warnable=no-derp-connection): ok
+2026/06/09 20:32:38 [RATELIMIT] format("health(warnable=%s): ok")
+2026/06/09 20:32:39 magicsock: disco: node [U3kLE] d:f72aac84667dbfae now using 190.165.113.5:1025 mtu=1360 tx=372ba4eb6666
+2026/06/09 20:32:39 magicsock: disco: node [WOIa7] d:5ee29d3383eb9ec0 now using 186.82.102.99:11192 mtu=1360 tx=edd7c1f6bd5a
+2026/06/09 20:32:42 magicsock: disco: node [m0og/] d:74debeeb40cc2e30 now using 181.60.4.29:40429 mtu=1360 tx=4d930b3e9f8c
+2026/06/09 20:32:42 wgengine: idle peer [U3kLE] now active, reconfiguring WireGuard
+2026/06/09 20:32:42 wgengine: Reconfig: configuring userspace WireGuard config (with 1/10 peers)
+2026/06/09 20:32:43 magicsock: disco: node [56Dr9] d:65bfa894b8dde7fe now using 190.240.24.10:37899 mtu=1360 tx=0521a997e3df
+2026/06/09 20:32:52 wgengine: idle peer [56Dr9] now active, reconfiguring WireGuard
+2026/06/09 20:32:52 wgengine: Reconfig: configuring userspace WireGuard config (with 2/10 peers)
+2026/06/09 20:33:20 wgengine: idle peer [WOIa7] now active, reconfiguring WireGuard
+2026/06/09 20:33:20 wgengine: Reconfig: configuring userspace WireGuard config (with 3/10 peers)
+2026/06/09 20:33:29 magicsock: disco: node [56Dr9] d:65bfa894b8dde7fe now using 190.240.24.10:41641 mtu=1360 tx=3d14d53589b1
+2026/06/09 20:33:30 wgengine: idle peer [XudLQ] now active, reconfiguring WireGuard
+2026/06/09 20:33:30 wgengine: Reconfig: configuring userspace WireGuard config (with 4/10 peers)
+2026/06/09 20:33:30 magicsock: disco: node [XudLQ] d:a343ddb22118aa2e now using 190.240.210.191:61647 mtu=1360 tx=79f3ec26e2ee
+2026/06/09 20:34:20 magicsock: adding connection to derp-16 for [WOIa7]
+2026/06/09 20:34:20 magicsock: 2 active derp conns: derp-1=cr2m0s,wr50s derp-16=cr0s,wr0s
+2026/06/09 20:34:20 derphttp.Client.Send: connecting to derp-16 (mia)
+2026/06/09 20:34:20 magicsock: derp-16 connected; connGen=1
+2026/06/09 20:34:31 magicsock: disco: node [56Dr9] d:65bfa894b8dde7fe now using 190.240.24.10:37899 mtu=1360 tx=f80d77d0d668
+2026/06/09 20:35:26 wgengine: idle peer [kDk3E] now active, reconfiguring WireGuard
+2026/06/09 20:35:26 wgengine: Reconfig: configuring userspace WireGuard config (with 5/10 peers)
+2026/06/09 20:35:26 magicsock: disco: node [kDk3E] d:84d2dabf888965ad now using 186.117.163.43:41641 mtu=1360 tx=9e46794f13d5
+2026/06/09 20:35:52 wgengine: Reconfig: configuring router
+2026/06/09 20:35:52 wgengine: Reconfig: configuring DNS
+2026/06/09 20:35:52 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:12}
+2026/06/09 20:35:52 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:12 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:35:52 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:35:52 restarted resolved after 2ms
+2026/06/09 20:35:52 wgengine: Reconfig: configuring userspace WireGuard config (with 5/11 peers)
+2026/06/09 20:35:52 wgengine: Reconfig: configuring router
+2026/06/09 20:35:52 wgengine: Reconfig: configuring DNS
+2026/06/09 20:35:52 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:12}
+2026/06/09 20:35:52 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:12 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:35:52 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:35:52 restarted resolved after 1ms
+2026/06/09 20:35:56 magicsock: disco: node [kDk3E] d:84d2dabf888965ad now using 186.117.163.43:41641 mtu=1360 tx=0588fb7db21e
+2026/06/09 20:36:01 Received error: PollNetMap: unexpected EOF
+2026/06/09 20:36:01 control: controlhttp: forcing port 443 dial due to recent noise dial
+2026/06/09 20:36:01 control: controlhttp: forcing port 443 dial due to recent noise dial
+2026/06/09 20:36:01 control: netmap: got new dial plan from control
+2026/06/09 20:40:55 wgengine: idle peer [0s841] now active, reconfiguring WireGuard
+2026/06/09 20:40:55 wgengine: Reconfig: configuring userspace WireGuard config (with 4/11 peers)
+2026/06/09 20:40:55 magicsock: disco: node [0s841] d:f8eb62c8ac8c2bce now using 181.57.26.166:28993 mtu=1360 tx=c013756238e1
+2026/06/09 20:41:02 wgengine: Reconfig: configuring router
+2026/06/09 20:41:02 wgengine: Reconfig: configuring DNS
+2026/06/09 20:41:02 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:13}
+2026/06/09 20:41:02 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:13 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:41:02 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:41:02 restarted resolved after 1ms
+2026/06/09 20:41:02 wgengine: Reconfig: configuring userspace WireGuard config (with 4/12 peers)
+2026/06/09 20:41:02 wgengine: Reconfig: configuring router
+2026/06/09 20:41:02 wgengine: Reconfig: configuring DNS
+2026/06/09 20:41:02 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:13}
+2026/06/09 20:41:02 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:13 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:41:02 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:41:02 restarted resolved after 1ms
+2026/06/09 20:41:15 wgengine: idle peer [m0og/] now active, reconfiguring WireGuard
+2026/06/09 20:41:15 wgengine: Reconfig: configuring userspace WireGuard config (with 5/12 peers)
+2026/06/09 20:41:15 magicsock: disco: node [m0og/] d:74debeeb40cc2e30 now using 181.60.4.29:33013 mtu=1360 tx=cc778ea097fe
+2026/06/09 20:42:26 wgengine: idle peer [wcAut] now active, reconfiguring WireGuard
+2026/06/09 20:42:26 wgengine: Reconfig: configuring userspace WireGuard config (with 4/12 peers)
+2026/06/09 20:42:26 magicsock: disco: node [wcAut] d:d27530999274a608 now using 186.82.102.99:22247 mtu=1360 tx=8076c682c016
+2026/06/09 20:43:08 wgengine: Reconfig: configuring router
+2026/06/09 20:43:08 wgengine: Reconfig: configuring DNS
+2026/06/09 20:43:08 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:14}
+2026/06/09 20:43:08 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:14 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:43:08 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:43:08 restarted resolved after 1ms
+2026/06/09 20:43:08 wgengine: Reconfig: configuring userspace WireGuard config (with 4/13 peers)
+2026/06/09 20:43:08 wgengine: Reconfig: configuring router
+2026/06/09 20:43:08 wgengine: Reconfig: configuring DNS
+2026/06/09 20:43:08 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:14}
+2026/06/09 20:43:08 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:14 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:43:08 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:43:08 restarted resolved after 1ms
+2026/06/09 20:43:56 magicsock: disco: node [m0og/] d:74debeeb40cc2e30 now using 181.60.4.29:40429 mtu=1360 tx=9f0e1dc5ca1c
+2026/06/09 20:43:59 wgengine: idle peer [VARgJ] now active, reconfiguring WireGuard
+2026/06/09 20:43:59 wgengine: Reconfig: configuring userspace WireGuard config (with 5/13 peers)
+2026/06/09 20:43:59 magicsock: disco: node [VARgJ] d:d935a30b57a7f1d4 now using 186.82.100.41:7935 mtu=1360 tx=551d017088c4
+2026/06/09 20:44:44 logtail: upload: log upload of 361 bytes compressed failed 503: server is shutting down
+2026/06/09 20:44:52 wgengine: Reconfig: configuring router
+2026/06/09 20:44:52 wgengine: Reconfig: configuring DNS
+2026/06/09 20:44:52 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:15}
+2026/06/09 20:44:52 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:15 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:44:52 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:44:52 restarted resolved after 4ms
+2026/06/09 20:44:52 wgengine: Reconfig: configuring userspace WireGuard config (with 5/14 peers)
+2026/06/09 20:44:52 wgengine: Reconfig: configuring router
+2026/06/09 20:44:52 wgengine: Reconfig: configuring DNS
+2026/06/09 20:44:52 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:15}
+2026/06/09 20:44:52 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:15 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:44:52 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:44:52 restarted resolved after 4ms
+2026/06/09 20:45:26 logtail: upload succeeded after 1 failures and 42s
+2026/06/09 20:45:52 wgengine: idle peer [XudLQ] now active, reconfiguring WireGuard
+2026/06/09 20:45:52 wgengine: Reconfig: configuring userspace WireGuard config (with 6/14 peers)
+2026/06/09 20:47:16 wgengine: Reconfig: configuring router
+2026/06/09 20:47:16 wgengine: Reconfig: configuring DNS
+2026/06/09 20:47:16 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:16}
+2026/06/09 20:47:16 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:16 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:47:16 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:47:16 restarted resolved after 1ms
+2026/06/09 20:47:16 wgengine: Reconfig: configuring userspace WireGuard config (with 6/15 peers)
+2026/06/09 20:47:16 wgengine: Reconfig: configuring router
+2026/06/09 20:47:16 wgengine: Reconfig: configuring DNS
+2026/06/09 20:47:16 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:16}
+2026/06/09 20:47:16 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:16 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:47:16 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:47:16 restarted resolved after 3ms
+2026/06/09 20:47:34 logtail: upload: log upload of 217 bytes compressed failed 500: failed to persist logs
+2026/06/09 20:47:46 magicsock: home DERP changing from derp-1 [15ms] to derp-27 [8ms]
+2026/06/09 20:47:46 magicsock: home is now derp-27 (iad)
+2026/06/09 20:47:46 magicsock: adding connection to derp-27 for home-keep-alive
+2026/06/09 20:47:46 magicsock: 3 active derp conns: derp-1=cr15m0s,wr14m0s derp-16=cr13m0s,wr50s derp-27=cr0s,wr0s
+2026/06/09 20:47:46 control: NetInfo: NetInfo{varies=false hairpin= ipv6=false ipv6os=true udp=true icmpv4=false derp=#27 portmap= link="" firewallmode="ipt-default"}
+2026/06/09 20:47:46 derphttp.Client.Recv: connecting to derp-27 (iad)
+2026/06/09 20:47:46 magicsock: derp-27 connected; connGen=1
+2026/06/09 20:47:46 [RATELIMIT] format("health(warnable=%s): ok") (1 dropped)
+2026/06/09 20:47:46 health(warnable=no-derp-connection): ok
+2026/06/09 20:47:50 magicsock: closing connection to derp-1 (idle), age 15m12s
+2026/06/09 20:47:50 magicsock: 2 active derp conns: derp-16=cr14m0s,wr54s derp-27=cr4s,wr4s
+2026/06/09 20:48:16 logtail: upload succeeded after 1 failures and 42s
+2026/06/09 20:51:04 logtail: upload: log upload of 336 bytes not-compressed failed 429: rate limited on overloaded service
+2026/06/09 20:51:36 wgengine: Reconfig: configuring userspace WireGuard config (with 2/15 peers)
+2026/06/09 20:53:32 wgengine: Reconfig: configuring router
+2026/06/09 20:53:32 wgengine: Reconfig: configuring DNS
+2026/06/09 20:53:32 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:17}
+2026/06/09 20:53:32 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:17 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:53:32 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:53:32 restarted resolved after 1ms
+2026/06/09 20:53:32 wgengine: Reconfig: configuring userspace WireGuard config (with 2/16 peers)
+2026/06/09 20:53:32 wgengine: Reconfig: configuring router
+2026/06/09 20:53:32 wgengine: Reconfig: configuring DNS
+2026/06/09 20:53:32 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:17}
+2026/06/09 20:53:32 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:17 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:53:32 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:53:32 restarted resolved after 1ms
+2026/06/09 20:54:47 wgengine: idle peer [bk2mr] now active, reconfiguring WireGuard
+2026/06/09 20:54:47 wgengine: Reconfig: configuring userspace WireGuard config (with 3/16 peers)
+2026/06/09 20:54:47 magicsock: disco: node [bk2mr] d:419c985f7d778deb now using 190.165.107.14:41641 mtu=1360 tx=56e181006c9d
+2026/06/09 20:54:48 magicsock: disco: node [bk2mr] d:419c985f7d778deb now using 190.165.107.14:14441 mtu=1360 tx=1313b6e9c3f1
+2026/06/09 20:56:01 wgengine: idle peer [bEaZD] now active, reconfiguring WireGuard
+2026/06/09 20:56:01 wgengine: Reconfig: configuring userspace WireGuard config (with 4/16 peers)
+2026/06/09 20:56:01 magicsock: disco: node [bEaZD] d:0349931cf59054af now using 186.87.141.91:38982 mtu=1360 tx=c6584c1daffb
+2026/06/09 20:56:01 magicsock: disco: node [bEaZD] d:0349931cf59054af now using 186.87.141.91:41641 mtu=1360 tx=92e0a1efb107
+2026/06/09 20:56:36 wgengine: Reconfig: configuring router
+2026/06/09 20:56:36 wgengine: Reconfig: configuring DNS
+2026/06/09 20:56:36 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:18}
+2026/06/09 20:56:36 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:18 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:56:36 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:56:36 restarted resolved after 1ms
+2026/06/09 20:56:36 wgengine: Reconfig: configuring userspace WireGuard config (with 4/17 peers)
+2026/06/09 20:56:36 wgengine: Reconfig: configuring router
+2026/06/09 20:56:36 wgengine: Reconfig: configuring DNS
+2026/06/09 20:56:36 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:18}
+2026/06/09 20:56:36 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:18 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:56:36 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:56:36 restarted resolved after 1ms
+2026/06/09 20:57:53 wgengine: idle peer [56Dr9] now active, reconfiguring WireGuard
+2026/06/09 20:57:53 wgengine: Reconfig: configuring userspace WireGuard config (with 4/17 peers)
+2026/06/09 20:57:55 wgengine: Reconfig: configuring router
+2026/06/09 20:57:55 wgengine: Reconfig: configuring DNS
+2026/06/09 20:57:55 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:19}
+2026/06/09 20:57:55 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:19 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:57:55 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:57:55 restarted resolved after 1ms
+2026/06/09 20:57:55 wgengine: Reconfig: configuring userspace WireGuard config (with 4/18 peers)
+2026/06/09 20:57:55 wgengine: Reconfig: configuring router
+2026/06/09 20:57:55 wgengine: Reconfig: configuring DNS
+2026/06/09 20:57:55 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:19}
+2026/06/09 20:57:55 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:19 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 20:57:55 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 20:57:55 restarted resolved after 1ms
+2026/06/09 20:58:05 wgengine: idle peer [Lcg9I] now active, reconfiguring WireGuard
+2026/06/09 20:58:05 wgengine: Reconfig: configuring userspace WireGuard config (with 5/18 peers)
+2026/06/09 20:58:05 magicsock: disco: node [Lcg9I] d:d10db4e59c880afb now using 190.70.32.62:41641 mtu=1360 tx=6f997b69e774
+2026/06/09 20:59:09 wgengine: idle peer [XudLQ] now active, reconfiguring WireGuard
+2026/06/09 20:59:09 wgengine: Reconfig: configuring userspace WireGuard config (with 6/18 peers)
+2026/06/09 21:00:23 wgengine: Reconfig: configuring userspace WireGuard config (with 5/18 peers)
+2026/06/09 21:00:31 wgengine: Reconfig: configuring router
+2026/06/09 21:00:31 wgengine: Reconfig: configuring DNS
+2026/06/09 21:00:31 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:20}
+2026/06/09 21:00:31 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:20 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 21:00:31 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 21:00:32 restarted resolved after 4ms
+2026/06/09 21:00:32 wgengine: Reconfig: configuring userspace WireGuard config (with 5/19 peers)
+2026/06/09 21:00:32 wgengine: Reconfig: configuring router
+2026/06/09 21:00:32 wgengine: Reconfig: configuring DNS
+2026/06/09 21:00:32 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:20}
+2026/06/09 21:00:32 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:20 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 21:00:32 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 21:00:32 restarted resolved after 4ms
+2026/06/09 21:00:45 wgengine: idle peer [BBekd] now active, reconfiguring WireGuard
+2026/06/09 21:00:45 wgengine: Reconfig: configuring userspace WireGuard config (with 6/19 peers)
+2026/06/09 21:00:45 magicsock: disco: node [BBekd] d:850d684d0f64f32e now using 181.50.245.26:41641 mtu=1360 tx=116a7ebba99f
+2026/06/09 21:08:53 wgengine: Reconfig: configuring userspace WireGuard config (with 1/19 peers)
+2026/06/09 21:08:53 wgengine: Reconfig: configuring router
+2026/06/09 21:08:53 wgengine: Reconfig: configuring DNS
+2026/06/09 21:08:53 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:21}
+2026/06/09 21:08:53 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:21 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 21:08:53 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 21:08:53 restarted resolved after 1ms
+2026/06/09 21:08:53 wgengine: Reconfig: configuring userspace WireGuard config (with 1/20 peers)
+2026/06/09 21:08:53 wgengine: Reconfig: configuring router
+2026/06/09 21:08:53 wgengine: Reconfig: configuring DNS
+2026/06/09 21:08:53 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:21}
+2026/06/09 21:08:53 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:21 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 21:08:53 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 21:08:53 restarted resolved after 1ms
+2026/06/09 21:09:06 wgengine: Reconfig: configuring router
+2026/06/09 21:09:06 wgengine: Reconfig: configuring DNS
+2026/06/09 21:09:06 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:22}
+2026/06/09 21:09:06 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:22 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 21:09:06 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 21:09:06 restarted resolved after 1ms
+2026/06/09 21:09:06 wgengine: Reconfig: configuring userspace WireGuard config (with 1/21 peers)
+2026/06/09 21:09:06 wgengine: Reconfig: configuring router
+2026/06/09 21:09:06 wgengine: Reconfig: configuring DNS
+2026/06/09 21:09:06 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:22}
+2026/06/09 21:09:06 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:22 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 21:09:06 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 21:09:06 restarted resolved after 1ms
+2026/06/09 21:09:18 wgengine: idle peer [XudLQ] now active, reconfiguring WireGuard
+2026/06/09 21:09:18 wgengine: Reconfig: configuring userspace WireGuard config (with 2/21 peers)
+2026/06/09 21:10:36 wgengine: idle peer [/mpIL] now active, reconfiguring WireGuard
+2026/06/09 21:10:36 wgengine: Reconfig: configuring userspace WireGuard config (with 3/21 peers)
+2026/06/09 21:10:36 magicsock: disco: node [/mpIL] d:3b9d8bcba92e42e8 now using 190.26.165.66:5273 mtu=1360 tx=4bd202eb99f1
+2026/06/09 21:11:22 wgengine: idle peer [b2OXO] now active, reconfiguring WireGuard
+2026/06/09 21:11:22 wgengine: Reconfig: configuring userspace WireGuard config (with 4/21 peers)
+2026/06/09 21:11:22 magicsock: disco: node [b2OXO] d:5242526260233a77 now using 177.255.236.21:41641 mtu=1360 tx=31746d9ef245
+2026/06/09 21:12:15 wgengine: idle peer [m0og/] now active, reconfiguring WireGuard
+2026/06/09 21:12:15 wgengine: Reconfig: configuring userspace WireGuard config (with 5/21 peers)
+2026/06/09 21:12:15 magicsock: disco: node [m0og/] d:74debeeb40cc2e30 now using 181.60.4.29:33013 mtu=1360 tx=b48452694942
+2026/06/09 21:13:55 wgengine: idle peer [56Dr9] now active, reconfiguring WireGuard
+2026/06/09 21:13:55 wgengine: Reconfig: configuring userspace WireGuard config (with 6/21 peers)
+2026/06/09 21:14:16 wgengine: Reconfig: [WOIa7] changed from "discokey:5ee29d3383eb9ec0a78eb31fc18ebe6f89ce83df8b9d572ab3ce1392c5072b4d" to "discokey:e116e7d669a55c5a92adecf8bdaaa9cdb2c7726f92bdaaea16336b3574248923"
+2026/06/09 21:15:06 wgengine: idle peer [wcAut] now active, reconfiguring WireGuard
+2026/06/09 21:15:06 wgengine: Reconfig: configuring userspace WireGuard config (with 6/21 peers)
+2026/06/09 21:15:15 wgengine: idle peer [1hMM+] now active, reconfiguring WireGuard
+2026/06/09 21:15:15 wgengine: Reconfig: configuring userspace WireGuard config (with 7/21 peers)
+2026/06/09 21:15:16 magicsock: disco: node [1hMM+] d:94ae08d4ed563c30 now using 190.165.113.5:41641 mtu=1360 tx=d69f3e4156c3
+2026/06/09 21:18:27 wgengine: Reconfig: [/mpIL] changed from "discokey:3b9d8bcba92e42e86415c62219eebe59e40b963c42f4cbe785fb00c70bb5664c" to "discokey:a4865595d4785b27541148357c911446c2e807effee1b8eed9d14da02c41c848"
+2026/06/09 21:18:27 wgengine: Reconfig: configuring userspace WireGuard config (with 5/21 peers)
+2026/06/09 21:21:43 wgengine: Reconfig: configuring userspace WireGuard config (with 2/21 peers)
+2026/06/09 21:21:46 peerapi: invalid request from [fd7a:115c:a1e0::8a37:e70d]:38552: invalid ip:port "fd7a:115c:a1e0::8a37:e70d:45969", IPv6 addresses must be surrounded by square brackets
+2026/06/09 21:21:46 peerapi: invalid request from [fd7a:115c:a1e0::8a37:e70d]:38642: invalid ip:port "fd7a:115c:a1e0::8a37:e70d:45969", IPv6 addresses must be surrounded by square brackets
+2026/06/09 21:22:18 wgengine: idle peer [m0og/] now active, reconfiguring WireGuard
+2026/06/09 21:22:18 wgengine: Reconfig: configuring userspace WireGuard config (with 3/21 peers)
+2026/06/09 21:23:28 wgengine: Reconfig: configuring router
+2026/06/09 21:23:28 wgengine: Reconfig: configuring DNS
+2026/06/09 21:23:28 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:23}
+2026/06/09 21:23:28 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:23 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 21:23:28 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 21:23:28 restarted resolved after 1ms
+2026/06/09 21:23:29 wgengine: Reconfig: configuring userspace WireGuard config (with 3/22 peers)
+2026/06/09 21:23:29 wgengine: Reconfig: configuring router
+2026/06/09 21:23:29 wgengine: Reconfig: configuring DNS
+2026/06/09 21:23:29 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:23}
+2026/06/09 21:23:29 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:23 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 21:23:29 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 21:23:29 restarted resolved after 1ms
+2026/06/09 21:28:45 wgengine: idle peer [IEN+i] now active, reconfiguring WireGuard
+2026/06/09 21:28:45 wgengine: Reconfig: configuring userspace WireGuard config (with 3/22 peers)
+2026/06/09 21:31:03 wgengine: idle peer [WOIa7] now active, reconfiguring WireGuard
+2026/06/09 21:31:03 wgengine: Reconfig: configuring userspace WireGuard config (with 3/22 peers)
+2026/06/09 21:31:03 magicsock: disco: node [WOIa7] d:e116e7d669a55c5a now using 186.82.102.99:11192 mtu=1360 tx=e745df087d72
+2026/06/09 21:31:33 wgengine: Reconfig: configuring router
+2026/06/09 21:31:33 wgengine: Reconfig: configuring DNS
+2026/06/09 21:31:33 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:24}
+2026/06/09 21:31:33 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:24 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 21:31:33 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 21:31:33 restarted resolved after 1ms
+2026/06/09 21:31:33 wgengine: Reconfig: configuring userspace WireGuard config (with 3/23 peers)
+2026/06/09 21:31:33 wgengine: Reconfig: configuring router
+2026/06/09 21:31:33 wgengine: Reconfig: configuring DNS
+2026/06/09 21:31:33 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:24}
+2026/06/09 21:31:33 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:24 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 21:31:33 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 21:31:33 restarted resolved after 1ms
+2026/06/09 21:32:51 wgengine: idle peer [56Dr9] now active, reconfiguring WireGuard
+2026/06/09 21:32:51 wgengine: Reconfig: configuring userspace WireGuard config (with 4/23 peers)
+2026/06/09 21:35:01 wgengine: Reconfig: configuring router
+2026/06/09 21:35:01 wgengine: Reconfig: configuring DNS
+2026/06/09 21:35:01 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:25}
+2026/06/09 21:35:01 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:25 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 21:35:01 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 21:35:01 restarted resolved after 1ms
+2026/06/09 21:35:02 wgengine: Reconfig: configuring userspace WireGuard config (with 4/24 peers)
+2026/06/09 21:35:02 wgengine: Reconfig: configuring router
+2026/06/09 21:35:02 wgengine: Reconfig: configuring DNS
+2026/06/09 21:35:02 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:25}
+2026/06/09 21:35:02 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:25 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 21:35:02 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 21:35:02 restarted resolved after 1ms
+2026/06/09 21:35:04 wgengine: idle peer [1hMM+] now active, reconfiguring WireGuard
+2026/06/09 21:35:04 wgengine: Reconfig: configuring userspace WireGuard config (with 5/24 peers)
+2026/06/09 21:35:06 magicsock: disco: node [1hMM+] d:94ae08d4ed563c30 now using 190.165.113.5:54361 mtu=1360 tx=a117bfa90b94
+2026/06/09 21:36:26 magicsock: adding connection to derp-11 for [IEN+i]
+2026/06/09 21:36:26 magicsock: 3 active derp conns: derp-11=cr0s,wr0s derp-16=cr1h2m0s,wr20s derp-27=cr49m0s,wr1m0s
+2026/06/09 21:36:26 derphttp.Client.Send: connecting to derp-11 (sao)
+2026/06/09 21:36:27 magicsock: derp-11 connected; connGen=1
+2026/06/09 21:37:33 wgengine: idle peer [k+sWp] now active, reconfiguring WireGuard
+2026/06/09 21:37:33 wgengine: Reconfig: configuring userspace WireGuard config (with 6/24 peers)
+2026/06/09 21:37:38 magicsock: disco: node [k+sWp] d:c7cb9b355858e51f now using 181.59.148.131:19964 mtu=1360 tx=f46b6e998d7f
+2026/06/09 21:39:35 magicsock: closing connection to derp-11 (idle), age 3m9s
+2026/06/09 21:39:35 magicsock: 2 active derp conns: derp-16=cr1h5m0s,wr39s derp-27=cr52m0s,wr5m0s
+2026/06/09 21:39:35 wgengine: Reconfig: configuring userspace WireGuard config (with 4/24 peers)
+2026/06/09 21:39:51 wgengine: idle peer [XudLQ] now active, reconfiguring WireGuard
+2026/06/09 21:39:51 wgengine: Reconfig: configuring userspace WireGuard config (with 5/24 peers)
+2026/06/09 21:39:52 wgengine: idle peer [47NIx] now active, reconfiguring WireGuard
+2026/06/09 21:39:52 wgengine: Reconfig: configuring userspace WireGuard config (with 6/24 peers)
+2026/06/09 21:40:00 magicsock: adding connection to derp-11 for [IEN+i]
+2026/06/09 21:40:00 magicsock: 3 active derp conns: derp-11=cr0s,wr0s derp-16=cr1h6m0s,wr8ms derp-27=cr52m0s,wr5m0s
+2026/06/09 21:40:00 derphttp.Client.Recv: connecting to derp-11 (sao)
+2026/06/09 21:40:00 magicsock: derp-11 connected; connGen=1
+2026/06/09 21:40:17 magicsock: disco: node [47NIx] d:672ede9d3cd0590d now using 143.137.98.102:41641 mtu=1360 tx=59aee4004506
+2026/06/09 21:41:17 health(warnable=not-in-map-poll): ok
+2026/06/09 21:41:17 control: netmap: got new dial plan from control
+2026/06/09 21:42:35 wgengine: idle peer [b2OXO] now active, reconfiguring WireGuard
+2026/06/09 21:42:35 wgengine: Reconfig: configuring userspace WireGuard config (with 7/24 peers)
+2026/06/09 21:43:56 wgengine: Reconfig: configuring userspace WireGuard config (with 6/24 peers)
+2026/06/09 21:43:56 wgengine: Reconfig: configuring router
+2026/06/09 21:43:56 wgengine: Reconfig: configuring DNS
+2026/06/09 21:43:56 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:26}
+2026/06/09 21:43:56 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:26 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 21:43:56 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 21:43:56 restarted resolved after 1ms
+2026/06/09 21:43:56 wgengine: Reconfig: configuring userspace WireGuard config (with 6/25 peers)
+2026/06/09 21:43:56 wgengine: Reconfig: configuring router
+2026/06/09 21:43:56 wgengine: Reconfig: configuring DNS
+2026/06/09 21:43:56 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:26}
+2026/06/09 21:43:56 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:26 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 21:43:56 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 21:43:56 restarted resolved after 2ms
+2026/06/09 21:44:43 wgengine: Reconfig: configuring router
+2026/06/09 21:44:43 wgengine: Reconfig: configuring DNS
+2026/06/09 21:44:43 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:27}
+2026/06/09 21:44:43 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:27 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 21:44:43 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 21:44:43 restarted resolved after 1ms
+2026/06/09 21:44:43 wgengine: Reconfig: configuring userspace WireGuard config (with 6/26 peers)
+2026/06/09 21:44:43 wgengine: Reconfig: configuring router
+2026/06/09 21:44:43 wgengine: Reconfig: configuring DNS
+2026/06/09 21:44:43 dns: Set: {DefaultResolvers:[] Routes:{tail5aeaeb.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail5aeaeb.ts.net.] Hosts:27}
+2026/06/09 21:44:43 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:27 LocalDomains:[tail5aeaeb.ts.net.]+65arpa, cloud="azure"}
+2026/06/09 21:44:43 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail5aeaeb.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2026/06/09 21:44:43 restarted resolved after 2ms
+2026/06/09 21:44:44 wgengine: idle peer [Lcg9I] now active, reconfiguring WireGuard
+2026/06/09 21:44:44 wgengine: Reconfig: configuring userspace WireGuard config (with 7/26 peers)
+2026/06/09 21:45:48 wgengine: idle peer [k+sWp] now active, reconfiguring WireGuard
+2026/06/09 21:45:48 wgengine: Reconfig: configuring userspace WireGuard config (with 6/26 peers)
+2026/06/09 21:46:55 wgengine: idle peer [nOU7P] now active, reconfiguring WireGuard
+2026/06/09 21:46:55 wgengine: Reconfig: configuring userspace WireGuard config (with 7/26 peers)
+2026/06/09 21:46:55 magicsock: disco: node [nOU7P] d:810a28527c16305c now using 152.201.39.91:41641 mtu=1360 tx=ef14a3116732
+2026/06/09 21:46:58 wgengine: idle peer [56Dr9] now active, reconfiguring WireGuard
+2026/06/09 21:46:58 wgengine: Reconfig: configuring userspace WireGuard config (with 8/26 peers)
+2026/06/09 21:47:01 wgengine: idle peer [Kxmy6] now active, reconfiguring WireGuard
+2026/06/09 21:47:01 wgengine: Reconfig: configuring userspace WireGuard config (with 9/26 peers)
+2026/06/09 21:47:01 magicsock: disco: node [Kxmy6] d:f6437e04c7971a9d now using 186.144.196.122:41641 mtu=1360 tx=ae62a3fbe28f
+2026/06/09 21:53:02 wgengine: idle peer [U3kLE] now active, reconfiguring WireGuard
+2026/06/09 21:53:02 wgengine: Reconfig: configuring userspace WireGuard config (with 4/26 peers)
+2026/06/09 21:53:02 magicsock: disco: node [U3kLE] d:f72aac84667dbfae now using 190.165.113.5:41641 mtu=1360 tx=602c1aa0d97f
+2026/06/09 21:53:32 wgengine: idle peer [wcAut] now active, reconfiguring WireGuard
+2026/06/09 21:53:32 wgengine: Reconfig: configuring userspace WireGuard config (with 5/26 peers)
+2026/06/09 21:55:17 wgengine: idle peer [Kxmy6] now active, reconfiguring WireGuard
+2026/06/09 21:55:17 wgengine: Reconfig: configuring userspace WireGuard config (with 6/26 peers)
+2026/06/09 21:58:10 wgengine: idle peer [1hMM+] now active, reconfiguring WireGuard
+2026/06/09 21:58:10 wgengine: Reconfig: configuring userspace WireGuard config (with 7/26 peers)
+2026/06/09 21:58:13 magicsock: disco: node [1hMM+] d:94ae08d4ed563c30 now using 190.165.113.5:1025 mtu=1360 tx=0dc376ecc957
+2026/06/09 21:59:45 wgengine: idle peer [Lcg9I] now active, reconfiguring WireGuard
+2026/06/09 21:59:45 wgengine: Reconfig: configuring userspace WireGuard config (with 7/26 peers)
+2026/06/09 22:02:14 wgengine: idle peer [56Dr9] now active, reconfiguring WireGuard
+2026/06/09 22:02:14 wgengine: Reconfig: configuring userspace WireGuard config (with 7/26 peers)
+2026/06/09 22:02:18 magicsock: disco: node [56Dr9] d:65bfa894b8dde7fe now using 190.240.24.10:41641 mtu=1360 tx=a50fe00647b4
+2026/06/09 22:03:17 magicsock: disco: node [56Dr9] d:65bfa894b8dde7fe now using 190.240.24.10:37899 mtu=1360 tx=bb592de9297c
+2026/06/09 22:04:18 wgengine: idle peer [P8fRN] now active, reconfiguring WireGuard
+2026/06/09 22:04:18 wgengine: Reconfig: configuring userspace WireGuard config (with 8/26 peers)
+2026/06/09 22:04:18 magicsock: disco: node [P8fRN] d:8fbfa114737a4073 now using 206.84.81.29:41641 mtu=1360 tx=c30ff0e68dab

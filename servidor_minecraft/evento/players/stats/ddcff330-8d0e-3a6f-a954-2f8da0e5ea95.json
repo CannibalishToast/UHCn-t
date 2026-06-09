@@ -1,0 +1,40 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:player": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:cherry_log": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 18418,
+      "minecraft:walk_one_cm": 69299,
+      "minecraft:leave_game": 3,
+      "minecraft:damage_taken": 478,
+      "minecraft:play_time": 23918,
+      "minecraft:damage_dealt": 242,
+      "minecraft:jump": 177,
+      "minecraft:time_since_death": 18387,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 14689,
+      "minecraft:fall_one_cm": 666,
+      "minecraft:total_world_time": 23918,
+      "minecraft:fly_one_cm": 18789,
+      "minecraft:crouch_one_cm": 9092,
+      "minecraft:sneak_time": 1782,
+      "minecraft:deaths": 1,
+      "minecraft:player_kills": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:cherry_log": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 1,
+      "minecraft:cherry_log": 2
+    }
+  },
+  "DataVersion": 4790
+}

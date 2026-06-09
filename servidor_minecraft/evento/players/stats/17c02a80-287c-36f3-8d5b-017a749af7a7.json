@@ -1,0 +1,51 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:used": {
+      "minecraft:cherry_log": 3,
+      "minecraft:grass_block": 81,
+      "minecraft:barrier": 115,
+      "minecraft:villager_spawn_egg": 3,
+      "minecraft:trident": 305,
+      "minecraft:egg": 1,
+      "minecraft:diamond_sword": 2,
+      "minecraft:dirt": 6,
+      "minecraft:firework_rocket": 249
+    },
+    "minecraft:dropped": {
+      "minecraft:chiseled_deepslate": 3,
+      "minecraft:egg": 1
+    },
+    "minecraft:custom": {
+      "minecraft:talked_to_villager": 1,
+      "minecraft:time_since_rest": 65831,
+      "minecraft:walk_one_cm": 59974,
+      "minecraft:leave_game": 4,
+      "minecraft:mob_kills": 1,
+      "minecraft:walk_under_water_one_cm": 7262,
+      "minecraft:damage_taken": 260,
+      "minecraft:damage_dealt": 337,
+      "minecraft:play_time": 346528,
+      "minecraft:jump": 308,
+      "minecraft:time_since_death": 65804,
+      "minecraft:aviate_one_cm": 8376028,
+      "minecraft:drop": 4,
+      "minecraft:sprint_one_cm": 26259,
+      "minecraft:fall_one_cm": 225,
+      "minecraft:total_world_time": 346528,
+      "minecraft:fly_one_cm": 1784193,
+      "minecraft:walk_on_water_one_cm": 2193,
+      "minecraft:crouch_one_cm": 4388,
+      "minecraft:sneak_time": 4542,
+      "minecraft:deaths": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:egg": 1,
+      "minecraft:chiseled_deepslate": 3,
+      "minecraft:rotten_flesh": 1
+    }
+  },
+  "DataVersion": 4790
+}

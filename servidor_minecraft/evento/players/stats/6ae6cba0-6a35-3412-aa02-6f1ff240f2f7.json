@@ -1,0 +1,33 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:barrier": 147,
+      "minecraft:egg": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 71037,
+      "minecraft:walk_one_cm": 141813,
+      "minecraft:leave_game": 2,
+      "minecraft:damage_taken": 20,
+      "minecraft:play_time": 71037,
+      "minecraft:damage_dealt": 52,
+      "minecraft:jump": 743,
+      "minecraft:time_since_death": 71037,
+      "minecraft:sprint_one_cm": 70082,
+      "minecraft:fall_one_cm": 9900,
+      "minecraft:total_world_time": 71037,
+      "minecraft:fly_one_cm": 331267,
+      "minecraft:crouch_one_cm": 20634,
+      "minecraft:sneak_time": 4424
+    },
+    "minecraft:picked_up": {
+      "minecraft:egg": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 1,
+      "minecraft:tall_grass": 8,
+      "minecraft:oak_leaves": 3
+    }
+  },
+  "DataVersion": 4790
+}
